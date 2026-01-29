@@ -1,0 +1,12 @@
+# Папки, которые не нужно сохранять
+/downloads/
+/models/
+/logs/
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Windows
+Thumbs.db
+.DS_Store
