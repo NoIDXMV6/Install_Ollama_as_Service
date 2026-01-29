@@ -54,6 +54,7 @@ Install Ollma as service/
    Если появляется ошибка:
    ```powershell
    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
 ### 3. Установлены компоненты
 	.NET Framework 4.8+
 	Visual C++ Redistributable
@@ -70,9 +71,11 @@ Install Ollma as service/
 			Автозапуск при старте системы
 			Запускается от имени администратора
 		Как запустить:
+		```
 			powershell
 			cd "D:\Ai\Install Ollma as service\scripts"
 			.\install.ps1
+		```
 		После установки:
 			Служба: OllamaService
 			API: http://localhost:11434
@@ -96,9 +99,11 @@ Install Ollma as service/
 				Выводит сообщение о необходимости запустить ./install.ps1
 			Работает только от имени администратора
 		Как запустить:
+		```
 			powershell
 			cd "D:\Ai\Install Ollma as service\scripts"
 			.\check_update.ps1
+		```
 		Особенности:
 			Если ollama.exe не найден — предлагает скачать и установить
 			Поддерживает повторную установку даже без обновления версии
@@ -122,9 +127,11 @@ Install Ollma as service/
 			При сбое загрузки модель будет потеряна
 			Рекомендуется стабильное интернет-подключение
 		Как запустить:
+		```
 			powershell
 			cd "D:\Ai\Install Ollma as service\scripts"
 			.\update_models.ps1
+		```	
 		Логирование:
 			Все действия записываются в logs/model_update_ГГГГ-ММ-ДД.log
 ## ⚠️ Важные замечания
