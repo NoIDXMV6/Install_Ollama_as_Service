@@ -151,8 +151,7 @@ Install Ollma as service/
 
 Определяет доменное имя через reverse-DNS (если используется IP)  
 Получает список доступных моделей  
-Формирует алиас из имени хоста (без домена) Сохраняет результат в config/ollama_hosts.json Генерирует load_balancer.bat с командой запуска ollama_load_balancer.exe  [https://github.com/MattSteffen/llm-balancer](https://github.com/BigBIueWhale/ollama_load_balancer) 
-
+Формирует алиас из имени хоста (без домена) Сохраняет результат в config/ollama_hosts.json Генерирует load_balancer.bat с командой запуска ollama_load_balancer.exe https://github.com/BigBIueWhale/ollama_load_balancer  
 **Поддерживаемый ввод:**
 
 • IP: 10.0.55.254
