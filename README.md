@@ -71,8 +71,7 @@ Install Ollma as service/
 			Автозапуск при старте системы
 			Запускается от имени администратора
 		Как запустить:
-		```
-			powershell
+		```powershell
 			cd "D:\Ai\Install Ollma as service\scripts"
 			.\install.ps1
 		```
@@ -99,8 +98,7 @@ Install Ollma as service/
 				Выводит сообщение о необходимости запустить ./install.ps1
 			Работает только от имени администратора
 		Как запустить:
-		```
-			powershell
+		```powershell
 			cd "D:\Ai\Install Ollma as service\scripts"
 			.\check_update.ps1
 		```
@@ -127,8 +125,7 @@ Install Ollma as service/
 			При сбое загрузки модель будет потеряна
 			Рекомендуется стабильное интернет-подключение
 		Как запустить:
-		```
-			powershell
+		```powershell
 			cd "D:\Ai\Install Ollma as service\scripts"
 			.\update_models.ps1
 		```	
